@@ -17,13 +17,5 @@ module.exports = {
     'vue'
   ],
   rules: {
-    'import/no-extraneous-dependencies': [
-      2,
-      {
-        devDependencies: true,
-        optionalDependencies: true,
-        peerDependencies: true
-      }
-    ]
   }
 }
