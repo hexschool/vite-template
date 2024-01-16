@@ -98,3 +98,13 @@ npm run deploy
 - `package.json`：專案資訊
 - `README.md`：專案說明
 - `vite.config.js`：Vite 設定檔
+
+## gh-pages 部署說明
+
+內建預設是使用 gh-pages 進行部署，因此只需要在專案根目錄下執行以下指令即可。
+
+```bash
+npm run deploy
+```
+
+只需要修改 `.env` 中的 `REPOSITORY_NAME` 就可以部署到你的 GitHub Pages 上。
