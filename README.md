@@ -107,4 +107,4 @@ npm run deploy
 npm run deploy
 ```
 
-只需要修改 `.env` 中的 `REPOSITORY_NAME` 就可以部署到你的 GitHub Pages 上。
+（請記得將 `.env` 中的 `REPOSITORY_NAME` 改為你的專案名稱即可。）
