@@ -6,25 +6,30 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
-    "bootstrap": "^5.2.2",
-    "bootstrap-icons": "^1.9.1",
-    "eslint-plugin-n": "^15.6.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "vite-plugin-eslint": "^1.8.1",
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "axios": "^1.6.5",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
+    "dotenv": "^16.3.1",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.0.0",
-    "eslint": "^8.26.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "eslint": "^8.49.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-vue": "^9.7.0",
-    "sass": "^1.55.0",
-    "vite": "^4.0.0"
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.20.1",
+    "gh-pages": "^6.1.1",
+    "sass": "^1.69.7",
+    "vite": "^5.0.10",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }
