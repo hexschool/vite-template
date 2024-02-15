@@ -1,22 +1,6 @@
 <template>
-  <div class="home">
-    <h1>Hello, This is Home Page.</h1>
-    <RouterLink to="/">Home</RouterLink> |
-    <RouterLink to="/about">About</RouterLink>
-    <hr>
-    <HelloWorld />
+  <div>
+    <h1>這是主頁</h1>
+    <p>主畫面說明</p>
   </div>
 </template>
-
-<script>
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style scoped>
-</style>
