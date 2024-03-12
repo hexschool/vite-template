@@ -32,6 +32,4 @@ export default (mode) => {
     customLog('vite', '請在終端機輸入「cp .env.example .env」 建立環境變數檔案。')
     customLog('vite', '目前僅支援 .env、.env.development、.env.production 三種模式。')
   }
-
-  console.log(envConfig.parsed)
 }
